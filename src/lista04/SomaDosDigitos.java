@@ -13,7 +13,7 @@ public class SomaDosDigitos
         return (n % 10) + somaDigitos(n / 10);
     }
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println(new SomaDosDigitos().somaDigitos(5)); //Teste com a penas 1 digito
         System.out.println(new SomaDosDigitos().somaDigitos(15));
     }
